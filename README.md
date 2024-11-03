@@ -1,6 +1,7 @@
 # Black_Scholes_Option_Application
 
 Simple Options pricing application developed in Python.
+![image](https://github.com/user-attachments/assets/10558c83-5cb1-44b7-8da9-77385f86b118)
 
 https://blackscholesoptionapplication.streamlit.app/
 
@@ -40,3 +41,4 @@ d_1 = \frac{\ln\left(\frac{S_0}{K}\right) + \left(r + \frac{\sigma^2}{2}\right)t
 \[
 d_2 = d_1 - \sigma \sqrt{t}
 \]
+
