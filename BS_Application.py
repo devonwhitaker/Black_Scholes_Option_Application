@@ -52,8 +52,8 @@ c1, c2, c3= st.columns(3)
 with c1:
     st.title("Inputs:")
     current_price = st.number_input("Current Price:", min_value=0.0, step=0.1, value=30.0)
-    strike_price = st.number_input("Strike Price:", min_value=0.0, step=0.1, value=30)
-    maturity = st.slider("Maturity (Days):", min_value=0, step=1, value=30.0)
+    strike_price = st.number_input("Strike Price:", min_value=0.0, step=0.1, value=30.0)
+    maturity = st.slider("Maturity (Days):", min_value=0, step=1, value=30)
     risk_free = st.number_input("Risk-Free Rate:", min_value=0.00, step=0.01, value=0.06)
     sigma = st.slider("Volatility:", min_value=0.00, step=0.01, value=0.20)
 
